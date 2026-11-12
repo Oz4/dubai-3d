@@ -1143,7 +1143,7 @@ export async function createBuildings(ctx, { progress } = {}) {
             float fin = 1.0 - smoothstep(0.1, 0.24, abs(fract(vWall.x / 1.7 + 0.5) - 0.5));
             float pix = mix(0.6, max(fin, 0.1), ledNear) * (code > 599.5 ? 0.7 : 1.0);
             totalEmissiveRadiance += lc * pix * uLedB.z;
-            diffuseColor.rgb *= 1.0 - 0.6 * min(uLedB.z, 1.0) * uNight;
+            diffuseColor.rgb *= 1.0 - min(uLedB.z, 1.0) * (0.35 + 0.25 * uNight);
           }
           if (glowAmt > 0.0) {
             // crowns and domes light up after dark, slowly cycling colour

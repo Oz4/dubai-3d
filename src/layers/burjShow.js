@@ -101,6 +101,7 @@ const JET_FRAG = /* glsl */ `
       a = clamp(a, 0.0, 1.0) * 0.9;
     #endif
     vec3 col = mix(vec3(0.96, 0.98, 1.0), uCol * (0.7 + 0.9 * exp(-x * x * 5.0)), night);
+    a = min(1.0, a * (1.0 + 0.35 * (1.0 - night)));
     gl_FragColor = vec4(col * a, a * (1.0 - 0.45 * night));
   }`;
 
@@ -318,7 +319,7 @@ export function createBurjShow(ctx, { buildings }) {
   function start() {
     if (!bInfo) return;
     S.running = true; S.t = 0; orbit = 0;
-    if (ctx.ui && ctx.ui.current && night < 0.9) ctx.ui.setMinutes(20 * 60 + 15);
+    // (the show plays at whatever time of day the viewer has set: by day its lights are driven harder to read in sunlight)
     ctx.flyTo({ target: new THREE.Vector3(13680, 320, -12960), zoom: 1.75, azimuth: THREE.MathUtils.degToRad(38), polar: THREE.MathUtils.degToRad(62), duration: 1.8 });
     if (bar) bar.hidden = false;
     if (btn) btn.classList.add('on');
@@ -373,7 +374,8 @@ export function createBurjShow(ctx, { buildings }) {
     uB.x = k; uB.y = beat;
     // fade in at the start and out over the last 3 s
     const master = Math.min(1, S.t / 1.5) * Math.min(1, (TOTAL - S.t) / 3);
-    uB.z = 1.2 * master * Math.max(0.35, night);
+    const day = 1 - night;
+    uB.z = master * (1.2 + 1.6 * day);
     for (let c = 0; c < 3; c++) { pal[c].copy(seg.palC[c]); pal[c + 3].copy((next || seg).palC[c]); }
     // fountain
     const fm = fU.uMode.value; fm.set(seg.fountain, local, next ? next.fountain : 0, Math.max(0, local - seg.d));
@@ -382,12 +384,13 @@ export function createBurjShow(ctx, { buildings }) {
     fU.uT.value = S.t;
     jetMesh.visible = mistMesh.visible = true;
     // lasers
-    lasers(seg.laser, S.t, beat, (1 - k) * master);
-    if (next) lasers(next.laser, S.t, beat, k * master);
+    const boost = 1 + 1.4 * day; // (additive beams read faintly against a daylit sky)
+    lasers(seg.laser, S.t, beat, (1 - k) * master * boost);
+    if (next) lasers(next.laser, S.t, beat, k * master * boost);
     bg.instanceCount = nb;
     for (const a of Object.keys(attrs)) bg.attributes[a].needsUpdate = true;
     // the glow of the show
-    if (ctx.bloomAllowed !== false) { ctx.bloomPass.enabled = true; ctx.bloomPass.strength = 0.36 + 0.06 * night; }
+    if (ctx.bloomAllowed !== false) { ctx.bloomPass.enabled = true; ctx.bloomPass.strength = 0.16 + 0.26 * night; }
     // a slow orbit round the tower while nobody touches the map
     if (S.t > 2 && !(ctx.isInteracting && ctx.isInteracting()) && ctx.activeCamera === ctx.camera) {
       orbit += dt;
@@ -400,7 +403,7 @@ export function createBurjShow(ctx, { buildings }) {
     if (barFill) barFill.style.width = `${(S.t / TOTAL) * 100}%`;
   });
   ctx.on('burj-show', (on) => {
-    if (!on && ctx.bloomPass) ctx.bloomPass.strength = 0.1 + 0.24 * night;
+    if (!on && ctx.bloomPass) { ctx.bloomPass.strength = 0.08 + 0.2 * night; ctx.bloomPass.enabled = night > 0.05 && ctx.bloomAllowed !== false; }
     // map labels step aside during the show (and come back if they were on)
     const lab = ctx.labels, st = ctx.layers && ctx.layers.state;
     if (lab) lab.setVisible(on ? false : !st || st.labels !== false);
