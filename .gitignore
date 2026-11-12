@@ -1,0 +1,7 @@
+node_modules
+dist
+data-raw
+dist-map
+.claude/
+.vercel
+*.log

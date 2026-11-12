@@ -1,0 +1,425 @@
+{
+  "_comment": "Dubai is built section by section. Each section is one or more lat/lon rectangles; the map covers the union of the built ones. The projection origin is fixed for good: changing it would move every section already built. Rectangles of unbuilt sections are a first cut, refined when the section is built.",
+  "origin": {
+    "lat0": 25.0795,
+    "lon0": 55.1395
+  },
+  "sections": [
+    {
+      "id": "marina",
+      "order": 1,
+      "built": true,
+      "name": "Dubai Marina, JBR & JLT",
+      "areas": [
+        "Dubai Marina",
+        "JBR",
+        "Bluewaters",
+        "Dubai Harbour",
+        "Emaar Beachfront",
+        "JLT",
+        "The Meadows",
+        "The Springs",
+        "Jumeirah Islands",
+        "Emirates Golf Club",
+        "Jumeirah Park (north)"
+      ],
+      "rects": [
+        {
+          "s": 25.06,
+          "w": 55.115,
+          "n": 25.099,
+          "e": 55.164
+        },
+        {
+          "s": 25.042,
+          "w": 55.115,
+          "n": 25.06,
+          "e": 55.164
+        }
+      ]
+    },
+    {
+      "id": "palm",
+      "order": 2,
+      "built": true,
+      "name": "Palm Jumeirah, Al Sufouh & Media City",
+      "areas": [
+        "Palm Jumeirah",
+        "Atlantis",
+        "Al Sufouh",
+        "Dubai Media City",
+        "Dubai Internet City",
+        "Dubai Knowledge Park",
+        "Barsha Heights (TECOM)",
+        "Emirates Hills"
+      ],
+      "rects": [
+        {
+          "s": 25.099,
+          "w": 55.1,
+          "n": 25.146,
+          "e": 55.185
+        },
+        {
+          "s": 25.06,
+          "w": 55.164,
+          "n": 25.099,
+          "e": 55.185
+        },
+        {
+          "s": 25.06,
+          "w": 55.1,
+          "n": 25.099,
+          "e": 55.115
+        },
+        {
+          "s": 25.042,
+          "w": 55.164,
+          "n": 25.06,
+          "e": 55.185
+        },
+        {
+          "s": 25.042,
+          "w": 55.1,
+          "n": 25.06,
+          "e": 55.115
+        }
+      ]
+    },
+    {
+      "id": "barsha",
+      "order": 3,
+      "built": true,
+      "name": "Al Barsha, Umm Suqeim & Burj Al Arab",
+      "areas": [
+        "Burj Al Arab",
+        "Jumeirah Beach Hotel",
+        "Madinat Jumeirah",
+        "Mall of the Emirates",
+        "Ski Dubai",
+        "Al Barsha 1-3",
+        "Al Barsha South",
+        "Umm Suqeim 1-3",
+        "Kite Beach",
+        "Sunset Beach"
+      ],
+      "rects": [
+        {
+          "s": 25.06,
+          "w": 55.185,
+          "n": 25.18,
+          "e": 55.235
+        },
+        {
+          "s": 25.146,
+          "w": 55.1,
+          "n": 25.18,
+          "e": 55.185
+        },
+        {
+          "s": 25.042,
+          "w": 55.185,
+          "n": 25.06,
+          "e": 55.235
+        }
+      ]
+    },
+    {
+      "id": "alquoz",
+      "order": 4,
+      "built": true,
+      "name": "Al Quoz, Al Safa & Jumeirah 3",
+      "areas": [
+        "Al Quoz",
+        "Al Safa",
+        "Safa Park",
+        "Jumeirah 2-3",
+        "Al Wasl (south)",
+        "Dubai Hills (west edge)",
+        "Al Barsha South (east)"
+      ],
+      "rects": [
+        {
+          "s": 25.06,
+          "w": 55.235,
+          "n": 25.205,
+          "e": 55.265
+        },
+        {
+          "s": 25.18,
+          "w": 55.1,
+          "n": 25.205,
+          "e": 55.235
+        },
+        {
+          "s": 25.042,
+          "w": 55.235,
+          "n": 25.06,
+          "e": 55.265
+        }
+      ]
+    },
+    {
+      "id": "downtown",
+      "order": 5,
+      "built": true,
+      "name": "Downtown, Business Bay & DIFC",
+      "areas": [
+        "Burj Khalifa",
+        "Dubai Mall",
+        "Dubai Fountain",
+        "Business Bay",
+        "Dubai Canal",
+        "DIFC",
+        "Sheikh Zayed Road towers",
+        "Dubai World Trade Centre",
+        "Dubai Design District",
+        "Al Satwa",
+        "City Walk",
+        "Jumeirah 1 & La Mer (south)",
+        "Jumeirah Bay",
+        "The World (south)",
+        "Dubai Hills (east)",
+        "Meydan (west)"
+      ],
+      "rects": [
+        {
+          "s": 25.06,
+          "w": 55.265,
+          "n": 25.235,
+          "e": 55.315
+        },
+        {
+          "s": 25.205,
+          "w": 55.1,
+          "n": 25.235,
+          "e": 55.265
+        },
+        {
+          "s": 25.042,
+          "w": 55.265,
+          "n": 25.06,
+          "e": 55.315
+        }
+      ]
+    },
+    {
+      "id": "jumeirah",
+      "order": 6,
+      "built": false,
+      "name": "Jumeirah 1, La Mer & City Walk",
+      "areas": [
+        "La Mer",
+        "Jumeirah 1",
+        "City Walk",
+        "Al Wasl",
+        "Al Satwa",
+        "Al Badaa",
+        "Port Rashid"
+      ],
+      "rects": [
+        {
+          "s": 25.235,
+          "w": 55.235,
+          "n": 25.265,
+          "e": 55.285
+        }
+      ]
+    },
+    {
+      "id": "burdubai",
+      "order": 7,
+      "built": false,
+      "name": "Bur Dubai, Deira & Dubai Creek",
+      "areas": [
+        "Al Fahidi",
+        "Dubai Creek",
+        "Deira souks",
+        "Al Rigga",
+        "Karama",
+        "Oud Metha",
+        "Dubai Frame"
+      ],
+      "rects": [
+        {
+          "s": 25.235,
+          "w": 55.285,
+          "n": 25.295,
+          "e": 55.345
+        }
+      ]
+    },
+    {
+      "id": "creek",
+      "order": 8,
+      "built": false,
+      "name": "Dubai Creek Harbour & Festival City",
+      "areas": [
+        "Dubai Creek Harbour",
+        "Ras Al Khor",
+        "Dubai Festival City",
+        "Al Jaddaf",
+        "Culture Village"
+      ],
+      "rects": [
+        {
+          "s": 25.175,
+          "w": 55.315,
+          "n": 25.235,
+          "e": 55.38
+        }
+      ]
+    },
+    {
+      "id": "airport",
+      "order": 9,
+      "built": false,
+      "name": "DXB Airport, Al Garhoud & Mirdif",
+      "areas": [
+        "Dubai International Airport",
+        "Al Garhoud",
+        "Al Twar",
+        "Al Qusais",
+        "Mirdif",
+        "City Centre Mirdif"
+      ],
+      "rects": [
+        {
+          "s": 25.2,
+          "w": 55.345,
+          "n": 25.3,
+          "e": 55.455
+        }
+      ]
+    },
+    {
+      "id": "islands",
+      "order": 10,
+      "built": false,
+      "name": "Dubai Islands & Al Mamzar",
+      "areas": [
+        "Dubai Islands",
+        "Al Mamzar Beach Park",
+        "Al Hamriya Port"
+      ],
+      "rects": [
+        {
+          "s": 25.295,
+          "w": 55.28,
+          "n": 25.345,
+          "e": 55.365
+        }
+      ]
+    },
+    {
+      "id": "hills",
+      "order": 11,
+      "built": false,
+      "name": "Dubai Hills, Meydan & MBR City",
+      "areas": [
+        "Dubai Hills Estate",
+        "Dubai Hills Mall",
+        "Meydan",
+        "Sobha Hartland",
+        "District One",
+        "Nad Al Sheba"
+      ],
+      "rects": [
+        {
+          "s": 25.07,
+          "w": 55.315,
+          "n": 25.175,
+          "e": 55.34
+        }
+      ]
+    },
+    {
+      "id": "jvc",
+      "order": 12,
+      "built": false,
+      "name": "JVC, Sports City & Motor City",
+      "areas": [
+        "Jumeirah Village Circle",
+        "Jumeirah Village Triangle",
+        "Dubai Sports City",
+        "Motor City",
+        "Arjan",
+        "Al Barsha South",
+        "Dubai Production City"
+      ],
+      "rects": [
+        {
+          "s": 25.005,
+          "w": 55.164,
+          "n": 25.042,
+          "e": 55.27
+        }
+      ]
+    },
+    {
+      "id": "jebelali",
+      "order": 13,
+      "built": false,
+      "name": "Jebel Ali, Discovery Gardens & Al Furjan",
+      "areas": [
+        "Ibn Battuta Mall",
+        "Discovery Gardens",
+        "Al Furjan",
+        "The Gardens",
+        "Jebel Ali Village",
+        "Jumeirah Golf Estates",
+        "Palm Jebel Ali"
+      ],
+      "rects": [
+        {
+          "s": 24.95,
+          "w": 55.0,
+          "n": 25.042,
+          "e": 55.164
+        }
+      ]
+    },
+    {
+      "id": "suburbs",
+      "order": 14,
+      "built": false,
+      "name": "Arabian Ranches, DAMAC Hills & Silicon Oasis",
+      "areas": [
+        "Arabian Ranches",
+        "DAMAC Hills",
+        "Al Barari",
+        "Dubai Silicon Oasis",
+        "International City",
+        "Global Village"
+      ],
+      "rects": [
+        {
+          "s": 25.0,
+          "w": 55.315,
+          "n": 25.14,
+          "e": 55.43
+        }
+      ]
+    },
+    {
+      "id": "south",
+      "order": 15,
+      "built": false,
+      "name": "Expo City & Dubai South",
+      "areas": [
+        "Expo City Dubai",
+        "Al Maktoum International Airport",
+        "Dubai South",
+        "Dubai Investments Park"
+      ],
+      "rects": [
+        {
+          "s": 24.85,
+          "w": 55.05,
+          "n": 24.99,
+          "e": 55.22
+        }
+      ]
+    }
+  ]
+}

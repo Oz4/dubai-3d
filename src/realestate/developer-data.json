@@ -1,0 +1,366 @@
+{
+ "towers": [
+  {
+   "name": "Princess Tower",
+   "developer": "Tameer Holding",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Princess_Tower"
+  },
+  {
+   "name": "Elite Residences",
+   "developer": "Tameer Holding",
+   "confidence": "high",
+   "source": "https://www.khaleejtimes.com/business/tameer-unveils-dh1b-elite-residence-project"
+  },
+  {
+   "name": "23 Marina",
+   "developer": "Hiranandani",
+   "confidence": "medium",
+   "source": "https://en.wikipedia.org/wiki/23_Marina"
+  },
+  {
+   "name": "Ciel Tower",
+   "developer": "The First Group",
+   "confidence": "high",
+   "source": "https://www.propertyfinder.ae/en/new-projects/the-first-group/ciel-tower"
+  },
+  {
+   "name": "Almas Tower",
+   "developer": "DMCC",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Almas_Tower"
+  },
+  {
+   "name": "The Torch",
+   "developer": "Select Group",
+   "confidence": "high",
+   "source": "https://www.select-group.ae/developments/the-torch"
+  },
+  {
+   "name": "Uptown Dubai Tower 1",
+   "developer": "DMCC",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Uptown_Dubai"
+  },
+  {
+   "name": "DAMAC Heights",
+   "developer": "DAMAC Properties",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Damac_Heights"
+  },
+  {
+   "name": "Ocean Heights",
+   "developer": "DAMAC Properties",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Ocean_Heights"
+  },
+  {
+   "name": "Cayan Tower",
+   "developer": "Cayan Group",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Cayan_Tower"
+  },
+  {
+   "name": "Infinity Tower",
+   "developer": "Cayan Group",
+   "confidence": "medium",
+   "source": "https://www.emirates247.com/news/emirates/beyond-infinity-world-s-tallest-twisted-tower-in-dubai-gets-new-name-2013-06-11-1.509917"
+  },
+  {
+   "name": "Address Jumeirah Resort",
+   "developer": "Emaar Properties",
+   "confidence": "high",
+   "source": "https://www.thenationalnews.com/business/property/emaar-to-build-twin-towered-hotel-and-residential-project-at-dubais-jbr-1.190722"
+  },
+  {
+   "name": "Emirates Crown",
+   "developer": "Bin Shafar Holding",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Emirates_Crown"
+  },
+  {
+   "name": "Marina Pinnacle",
+   "developer": "Tiger Properties",
+   "confidence": "medium",
+   "source": "https://gulfnews.com/business/property/tiger-properties-project-on-course-in-dubai-1.551321"
+  },
+  {
+   "name": "Five JBR",
+   "developer": "FIVE Holdings",
+   "confidence": "medium",
+   "source": "https://propertyfinder.ae/en/new-projects/dev/five-holdings"
+  },
+  {
+   "name": "1/JBR",
+   "developer": "Meraas",
+   "confidence": "high",
+   "source": "https://meraas.com/en/master-development/1-JBR"
+  },
+  {
+   "name": "Al Fattan Marine Towers",
+   "developer": "Al Fattan Properties",
+   "confidence": "medium",
+   "source": "https://www.propertyfinder.ae/en/area-insights/dubai/compounds-and-towers/jumeirah-beach-residence-al-fattan-marine-towers"
+  },
+  {
+   "name": "Grosvenor House",
+   "developer": "Emaar Properties",
+   "confidence": "medium",
+   "source": "https://en.wikipedia.org/wiki/Grosvenor_House_(Dubai)"
+  },
+  {
+   "name": "Bay Central",
+   "developer": "Select Group",
+   "confidence": "high",
+   "source": "https://select-group.ae/developments/bay-central"
+  },
+  {
+   "name": "Botanica Tower",
+   "developer": "Select Group",
+   "confidence": "high",
+   "source": "https://www.select-group.ae/developments"
+  },
+  {
+   "name": "Stella Maris",
+   "developer": "Bloom Properties",
+   "confidence": "medium",
+   "source": "https://gulfbusiness.com/?p=68029"
+  },
+  {
+   "name": "Marina Arcade Tower",
+   "developer": "Mada'in Properties",
+   "confidence": "medium",
+   "source": "https://metropolitan.realestate/developers/madain/"
+  },
+  {
+   "name": "Aeternitas",
+   "developer": "London Gate",
+   "confidence": "medium",
+   "source": "https://famproperties.com/dubai-marina-dubai/aeternitas/2-bedroom-apartment-for-sale-186744"
+  },
+  {
+   "name": "Preatoni Tower",
+   "developer": "Preatoni Real Estate",
+   "confidence": "medium",
+   "source": "https://invest-gate.me/news/italys-preatoni-completes-stalled-dubai-jlt-tower/"
+  },
+  {
+   "name": "Le Reve Tower",
+   "developer": "Xtreme Vision",
+   "confidence": "medium",
+   "source": "https://www.luxhabitat.ae/developments/dubai/le-reve/"
+  },
+  {
+   "name": "Marina Quay West",
+   "developer": "Emaar Properties",
+   "confidence": "medium",
+   "source": "https://www.propertyfinder.ae/en/area-insights/dubai/compounds-and-towers/dubai-marina-marina-quays"
+  },
+  {
+   "name": "Icon Tower 1",
+   "developer": "Mazaya Holding",
+   "confidence": "medium",
+   "source": "https://famproperties.com/arabic/jlt-jumeirah-lake-towers-dubai/the-icon"
+  },
+  {
+   "name": "Silverene Tower A",
+   "developer": "Cayan Group",
+   "confidence": "medium",
+   "source": "https://www.luxhabitat.ae/developments/dubai/silverene/"
+  },
+  {
+   "name": "Sulafa Tower",
+   "developer": "Al Sayyah & Sons Investment",
+   "confidence": "medium",
+   "source": "https://famproperties.com/dubai-marina-dubai/sulafa-tower"
+  },
+  {
+   "name": "Marina 101",
+   "developer": "Sheffield Holdings",
+   "confidence": "medium",
+   "source": "https://www.binayah.com/dubai-projects/marina-101/"
+  },
+  {
+   "name": "The Residences Al Habtoor Grand",
+   "developer": "Al Habtoor Group",
+   "confidence": "high",
+   "source": "https://www.propertyfinder.ae/en/new-projects/al-habtoor-group/habtoor-grand-residences"
+  },
+  {
+   "name": "Vida Residences Dubai Marina",
+   "developer": "Emaar Properties",
+   "confidence": "high",
+   "source": "https://www.luxhabitat.ae/areas/dubai/dubai-marina/vida-residences/"
+  },
+  {
+   "name": "Marina Shores",
+   "developer": "Emaar Properties",
+   "confidence": "high",
+   "source": "https://bhomes.com/en/off-plan/emaar/marina-shores-at-dubai-marina"
+  },
+  {
+   "name": "Dubai Harbour Residences",
+   "developer": "H&H Development",
+   "confidence": "medium",
+   "source": "https://opr.ae/projects/dubai-harbour-residences-by-hh"
+  },
+  {
+   "name": "The Palm Tower",
+   "developer": "Nakheel",
+   "confidence": "high",
+   "source": "https://www.nakheel.com/media-centre/press-release/news-detail/2021/03/20/nakheel-s-palm-tower-nears-completion"
+  },
+  {
+   "name": "Atlantis The Royal",
+   "developer": "Kerzner International",
+   "confidence": "medium",
+   "source": "https://www.kerznercommunications.com/atlantis/royal-atlantis/atlantis-the-royal-reveals-industry-leading-design--architecture-behind-dubais-newest-icon/"
+  },
+  {
+   "name": "Sky Bridge",
+   "developer": "Kerzner International",
+   "confidence": "medium",
+   "source": "https://www.kerznercommunications.com/atlantis/royal-atlantis/atlantis-the-royal-reveals-industry-leading-design--architecture-behind-dubais-newest-icon/"
+  },
+  {
+   "name": "Safa One",
+   "developer": "DAMAC Properties",
+   "confidence": "high",
+   "source": "https://gulfnews.com/business/property/dubai-developer-damac-launches-its-second-twin-tower-inspired-by-swiss-jeweller-de-grisogono-1.1655278491985"
+  },
+  {
+   "name": "Safa Two",
+   "developer": "DAMAC Properties",
+   "confidence": "high",
+   "source": "https://damacproperties.com/en/projects/safa-two"
+  },
+  {
+   "name": "Aykon City",
+   "developer": "DAMAC Properties",
+   "confidence": "high",
+   "source": "https://damacproperties.com/en/projects/safa-two"
+  },
+  {
+   "name": "One by Binghatti",
+   "developer": "Binghatti Developers",
+   "confidence": "high",
+   "source": "https://www.khaleejtimes.com/realty/binghatti-unveils-dh3-billion-ultra-luxury-waterfront-project-in-business-bay"
+  },
+  {
+   "name": "JW Marriott Marquis Hotel",
+   "developer": "Emirates Group",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/JW_Marriott_Marquis_Dubai"
+  },
+  {
+   "name": "Amna, Noora & Meera (Al Habtoor City)",
+   "developer": "Al Habtoor Group",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Al_Habtoor_City"
+  },
+  {
+   "name": "Hilton Dubai Al Habtoor City",
+   "developer": "Al Habtoor Group",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Al_Habtoor_City"
+  },
+  {
+   "name": "Al Habtoor Tower",
+   "developer": "Al Habtoor Group",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Al_Habtoor_City"
+  },
+  {
+   "name": "Dubai Hills Mall",
+   "developer": "Emaar Properties",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Dubai_Hills_Mall"
+  },
+  {
+   "name": "Burj Khalifa",
+   "developer": "Emaar Properties",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Downtown_Dubai"
+  },
+  {
+   "name": "The Dubai Mall",
+   "developer": "Emaar Properties",
+   "confidence": "high",
+   "source": "https://en.wikipedia.org/wiki/Downtown_Dubai"
+  }
+ ],
+ "groups": [
+  {
+   "regex": "^(Sadaf|Bahar|Rimal|Murjan|Amwaj|Shams) \\d+$",
+   "developer": "Dubai Properties",
+   "note": "All JBR cluster towers (Sadaf / Bahar / Rimal / Murjan / Amwaj / Shams 1..n). JBR was launched by Dubai Properties (a Dubai Holding subsidiary); Wikipedia names the six blocks Shams, Amwaj, Rimal, Bahar, Sadaf, Murjan. Does NOT cover 'Murjan Tower' (Dubai Marina, Emaar) or Al Fattan / Address / 1/JBR, which are separate.",
+   "source": "https://en.wikipedia.org/wiki/Jumeirah_Beach_Residence"
+  },
+  {
+   "regex": "^(Marina Gate( [123])?|Jumeirah Living Marina Gate|The Residences at Marina Gate.*|Six Senses Residences.*)$",
+   "developer": "Select Group",
+   "note": "Marina Gate towers (Marina Gate 1/2/3, The Residences at Marina Gate, Jumeirah Living Marina Gate) plus Six Senses Residences (Select Group's Six Senses Residences is on the Palm, still Select Group)",
+   "source": "https://www.zawya.com/en/press-release/select-group-the-largest-private-developer-in-dubai-marina-launches-new-development-jd2zpesd"
+  },
+  {
+   "regex": "^(Beach Vista.*|Marina Vista|Seapoint.*|Bay ?[Vv]iew|Grand Bleu Tower|Sunrise Bay|Beach Isle)$",
+   "developer": "Emaar Properties",
+   "note": "Emaar Beachfront at Dubai Harbour (Beach Vista, Marina Vista, Seapoint, Bayview, Grand Bleu Tower, Sunrise Bay, Beach Isle)",
+   "source": "https://www.luxhabitat.ae/developments/dubai/emaar-beachfront/"
+  },
+  {
+   "regex": "^(Bluewaters.*|Caesars.*Bluewaters.*|Caesars Palace.*)$",
+   "developer": "Meraas",
+   "note": "Everything on Bluewaters Island (Bluewaters Residences, Caesars Palace / Caesars Resort Bluewaters, Bluewaters Bay). Meraas developed the island; Caesars hotels are a JV with Meraas.",
+   "source": "https://www.meraas.com/media-center/meraas-and-caesars-entertainment-plan-to-bring-caesars-palace-to-dubai"
+  },
+  {
+   "regex": "^(Al (Majara|Sahab|Mesk|Murjan|Yass|Mass|Fairooz|Anbar)\\b.*|(Mesk|Murjan|Fairooz|Anbar|Yass) Tower|Al Mass Tower)$",
+   "developer": "Emaar Properties",
+   "note": "Emaar 6 Towers / Dubai Marina Towers (Al Mass, Fairooz, Murjan Tower, Mesk Tower, Anbar, Al Yass), Al Majara and Al Sahab towers",
+   "source": "https://www.propertyfinder.ae/en/area-insights/dubai/compounds-and-towers/dubai-marina-al-majara-towers"
+  },
+  {
+   "regex": "^(Marina Promenade|Aurora|Attessa|Delphine|(The )?Paloma|Shemara|Beauport)$",
+   "developer": "Emaar Properties",
+   "note": "Marina Promenade six towers (Aurora, Attessa, Delphine, Paloma, Shemara, Beauport)",
+   "source": "https://en.wikipedia.org/wiki/Marina_Promenade"
+  },
+  {
+   "regex": "^(Park Island|Bonaire|Blakely|Fairfield|Sanibel)( Tower)?$",
+   "developer": "Emaar Properties",
+   "note": "Park Island (Bonaire, Blakely, Fairfield, Sanibel)",
+   "source": "https://www.albawaba.com/business/emaar-unveils-park-island-dubai-marina"
+  },
+  {
+   "regex": "^52 ?\\| ?42.*$",
+   "developer": "Emaar Properties",
+   "note": "52 | 42 twin towers, Dubai Marina",
+   "source": "https://www.drivenproperties.com/ready-to-move-apartments-and-properties-dubai/52-42-by-emaar-properties"
+  },
+  {
+   "regex": "^DAMAC Bay( 2)?$",
+   "developer": "DAMAC Properties",
+   "note": "DAMAC Bay and DAMAC Bay 2, Dubai Harbour",
+   "source": "https://propertyfinder.ae/en/new-projects/lp/dubai/dubai-harbour"
+  },
+  {
+   "regex": "^Sobha Seahaven.*$",
+   "developer": "Sobha Realty",
+   "note": "Sobha Seahaven towers, Dubai Harbour",
+   "source": "https://www.luxhabitat.ae/developments/dubai/sobha-seahaven/"
+  },
+  {
+   "regex": "^Executive Tower [A-M]$",
+   "developer": "Dubai Properties",
+   "note": "Executive Towers, Business Bay (Dubai Properties' first Business Bay project)",
+   "source": "https://www.dp.ae/our-portfolio/all-projects/13/the-executive-towers/"
+  },
+  {
+   "regex": "^(Wasl Road, )?Box ?park.*$",
+   "developer": "Meraas",
+   "note": "BOXPARK on Al Wasl Road (opened by Meraas in 2015)",
+   "source": "https://gulfnews.com/business/retail/meraas-launches-boxpark-in-dubai-1.1452307"
+  }
+ ]
+}
