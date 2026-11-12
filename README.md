@@ -197,3 +197,8 @@ src/layers/         ground & water, buildings (facade shader, picking, LED facad
 src/realestate/     developer/community attribution, floor explorer, unit layouts, view & sun analysis
 src/ui/             time bar, toolbar, tooltips, selection; layers.js = layers panel + FPS meter
 ```
+
+## Map-only build and deployment
+
+`npm run build:map` builds the map without the real-estate features (developer and community filters, tower search, building cards, floors, units) into `dist-map/`: the map, its layers, time of day, the Burj Khalifa show and hiding the interface (H). The data files ship gzipped (`*.json.gz`, about 33 MB in all) and are unpacked in the browser (`src/core/data.js`). Vercel builds this version (`vercel.json`); the site is https://dubai-3d.vercel.app.
+
