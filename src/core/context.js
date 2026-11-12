@@ -8,7 +8,7 @@ import { SMAAPass } from 'three/addons/postprocessing/SMAAPass.js';
 import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
 import { N8AOPass } from 'n8ao';
 
-// Isometric framing: camera sits south-east of the target looking north-west,
+// Default framing: camera sits south-east of the target looking north-west,
 // so the Arabian Gulf is at the top of the screen like classic aerial shots of the Marina.
 export const ISO_POLAR = THREE.MathUtils.degToRad(54);
 export const ISO_AZIMUTH = THREE.MathUtils.degToRad(45);
