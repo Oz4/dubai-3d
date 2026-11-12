@@ -1,4 +1,4 @@
-# Dubai Marina 3D: interactive isometric real-estate map (demo)
+# Dubai 3D: interactive isometric map of Dubai (demo)
 
 A real-time 3D, isometric-style model of Dubai, built section by section for real-estate presentations. It now covers five sections, about 21.7 × 19.4 km:
 - **Section 1:** Dubai Marina, JBR, Bluewaters, Dubai Harbour, JLT and the Emirates Golf Club area.
