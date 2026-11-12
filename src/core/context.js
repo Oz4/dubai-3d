@@ -63,10 +63,14 @@ export function createContext(canvas, data) {
     const a = aspect(), diag = (bounds.w + bounds.h) * Math.SQRT1_2;
     return Math.min((FRUSTUM_H * a) / diag, FRUSTUM_H / (diag * Math.cos(ISO_POLAR) + 400)) * 1.04;
   };
+  // the first view (and Reset): Dubai Marina, JBR and JLT with Dubai Harbour above and Emirates Golf Club beside,
+  // about 4.4 km across on a wide screen; narrow screens (phones) pull back to about 3 km across. Zooming out still
+  // reaches the whole city (minZoom from the full fit).
+  const homeZoom = () => Math.min(0.72, (FRUSTUM_H * aspect()) / 3000);
   const home = sectionsN > 1
-    ? { target: new THREE.Vector3((x0 + x1) / 2, 0, -(y0 + y1) / 2), zoom: fitZoom(), polar: ISO_POLAR, azimuth: ISO_AZIMUTH }
+    ? { target: new THREE.Vector3(110, 0, 150), zoom: homeZoom(), polar: ISO_POLAR, azimuth: ISO_AZIMUTH }
     : { target: new THREE.Vector3(60, 0, -170), zoom: 1.05, polar: ISO_POLAR, azimuth: ISO_AZIMUTH };
-  controls.minZoom = Math.min(0.42, home.zoom * 0.8);
+  controls.minZoom = Math.min(0.42, (sectionsN > 1 ? fitZoom() : home.zoom) * 0.8);
   function placeCamera(target, polar, azimuth, zoom) {
     controls.target.copy(target);
     const off = new THREE.Vector3().setFromSphericalCoords(CAM_DIST, polar, azimuth);
